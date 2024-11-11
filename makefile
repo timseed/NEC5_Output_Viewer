@@ -30,4 +30,4 @@ all: $(TARGETS)
 #Clean up
 .Phony: clean
 clean:
-	rm *.out
+	rm -f *.out,*.png
