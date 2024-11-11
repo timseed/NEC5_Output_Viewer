@@ -1,0 +1,25 @@
+CM Loop On the Ground
+CM RP0,19,37,1001,0.,0.,10.,10., MEANS 19 Steps 0-90-0 ie declination. 37 steps from 0-360 i.e. 10 degrees. 1001 is the radiation ID number 0,0 and Min Angles for Dec and Az.10,10 are the steps to use (not sure why this is duplicated)
+CM THETA means Elevation 0-90-0 180 degrees in total.
+CM PHI means Azimuth i.e. 0-360.
+CE
+PA Z  0.05
+PA X  5.5
+PA W  0.005
+PA S  20
+GS 0  0  1.0
+GW 1  20  0  0  Z  X  0  Z  W
+GW 2  S   X  0  Z  X  X  Z  W
+GW 3  S   X  X  Z  0  X  Z  W
+GW 4  S   0  X  Z  0  0  Z  W
+GE 0
+GD 0  0  0  0  13  0  1  0
+
+FR 0  1  0  0  3.56  0
+EX  0  1  1  1  1  0
+RP0,19,37,1001,0.,0.,10.,10.,
+XQ
+EN
+
+
+
